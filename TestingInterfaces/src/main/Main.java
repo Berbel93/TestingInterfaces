@@ -55,7 +55,7 @@ public class Main {
 		
 		// Llamando a un método normal de InterfaceC
 		System.out.println("Cambiando edad...");
-		personB.changeAge(2);
+		personB.changeAge(2); // Edad dividida por 2
 		
 		// Llamando a un método normal de InterfaceC
 		System.out.println("Tengo " + personB.getAge() + 

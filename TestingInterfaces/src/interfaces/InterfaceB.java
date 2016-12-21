@@ -7,7 +7,7 @@ import persons.PersonB;
  * @author PabloBerbel
  * 
  * Interfaz funcional con dos métodos por defecto que ya vienen implementados y
- * que usarán las siguientes clases;
+ * que usarán las siguientes clases:
  * @see PersonA
  * @see PersonB
  */
