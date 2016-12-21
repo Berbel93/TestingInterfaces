@@ -27,7 +27,6 @@ public interface InterfaceB {
 					return false;
 			return Character.isLetter(nif.charAt(nif.length() - 1));
 		}
-			
 		return false;
 	}
 	

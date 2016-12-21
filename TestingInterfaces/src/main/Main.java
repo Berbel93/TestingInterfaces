@@ -13,15 +13,15 @@ public class Main {
 		
 		System.out.println("---------- Persona A ----------");
 		
-		// Llamando a un método normal de InterfaceC
+		// Llamando a un método simple de InterfaceC
 		System.out.println("Tengo " + personA.getAge() + 
 				" años. ¿Soy adulto? " + change(personA.isAdult())); // Adulto si edad >= 18
 		
-		// Llamando a un método normal de InterfaceC
+		// Llamando a un método simple de InterfaceC
 		System.out.println("Cambiando edad...");
 		personA.changeAge(2); // Edad multiplicada por 2
 		
-		// Llamando a un método normal de InterfaceC
+		// Llamando a un método simple de InterfaceC
 		System.out.println("Tengo " + personA.getAge() + 
 				" años. ¿Soy adulto? " + change(personA.isAdult())); // Adulto
 		
@@ -49,15 +49,15 @@ public class Main {
 		
 		System.out.println("\n---------- Persona B ----------");
 		
-		// Llamando a un método normal de InterfaceC
+		// Llamando a un método simple de InterfaceC
 		System.out.println("Tengo " + personB.getAge() + 
 				" años. ¿Soy adulto? " + change(personB.isAdult())); // Adulto si edad >= 21
 		
-		// Llamando a un método normal de InterfaceC
+		// Llamando a un método simple de InterfaceC
 		System.out.println("Cambiando edad...");
 		personB.changeAge(2); // Edad dividida por 2
 		
-		// Llamando a un método normal de InterfaceC
+		// Llamando a un método simple de InterfaceC
 		System.out.println("Tengo " + personB.getAge() + 
 				" años. ¿Soy adulto? " + change(personB.isAdult())); // No adulto
 		
